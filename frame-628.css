@@ -10,13 +10,13 @@
   align-items: center;
   justify-content: flex-start;
 }
-.customer-dashboard,
-.the-goal-of1 {
+.customer-dashboard {
   position: relative;
   line-height: 20px;
 }
-.the-goal-of1 {
+.this-tutorials-goal1 {
   align-self: stretch;
+  position: relative;
   font-size: var(--font-size-xl);
   line-height: 35px;
   text-align: left;
@@ -31,13 +31,13 @@
   text-align: center;
   font-size: var(--font-size-9xl);
 }
-.frame-child10 {
+.frame-child11 {
   position: relative;
   width: 650px;
   height: 366px;
   object-fit: cover;
 }
-.frame-wrapper4 {
+.frame-wrapper5 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -50,23 +50,29 @@
   line-height: 20px;
   font-weight: 600;
 }
-.map-panel-wrapper,
-.on-the-top-right-corner-of-the-parent {
+.map-panel-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.on-the-top-right-corner-of-the-parent {
+.located-on-the {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+}
+.located-on-the-top-right-corne-parent {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
   gap: var(--gap-xl);
   font-size: var(--font-size-xl);
   color: var(--color-black);
 }
 .area-and-assets-floor-pan-pane-wrapper,
-.frame-parent11 {
+.frame-parent10 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -74,18 +80,13 @@
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
 }
-.frame-parent11 {
+.frame-parent10 {
   align-self: stretch;
   background-color: var(--color-white);
   gap: var(--gap-27xl);
 }
 .area-and-assets-floor-pan-pane-wrapper {
   width: 384px;
-}
-.when-an-asset {
-  flex: 1;
-  position: relative;
-  line-height: 35px;
 }
 .when-an-asset-area-or-device-parent {
   align-self: stretch;
@@ -114,19 +115,19 @@
   justify-content: center;
   gap: 10px;
 }
-.frame-parent12,
-.frame-parent13 {
+.frame-parent11,
+.frame-parent12 {
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
 }
-.frame-parent13 {
+.frame-parent12 {
   background-color: var(--color-white);
   flex-direction: row;
   align-items: center;
   gap: var(--gap-xl);
 }
-.frame-parent12 {
+.frame-parent11 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -166,7 +167,7 @@
   line-height: 35px;
 }
 .depending-on-the-device-profil-container,
-.frame-wrapper5 {
+.frame-wrapper6 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -176,39 +177,39 @@
 .depending-on-the-device-profil-container {
   background-color: var(--color-white);
 }
-.frame-wrapper5 {
+.frame-wrapper6 {
   padding: 0 var(--padding-78xl);
 }
-.image-4-icon {
+.image-4-icon1 {
   position: relative;
   width: 385px;
   height: 219.4px;
   object-fit: cover;
 }
-.frame-wrapper6 {
+.frame-wrapper7 {
   align-self: stretch;
   background-color: var(--color-white);
   align-items: flex-start;
 }
-.frame-parent10,
-.frame-parent14,
+.frame-parent13,
+.frame-parent9,
 .frame-root,
-.frame-wrapper6 {
+.frame-wrapper7 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frame-parent14 {
+.frame-parent13 {
   align-self: stretch;
   background-color: var(--color-white);
   align-items: flex-start;
   gap: var(--gap-27xl);
 }
-.frame-parent10,
+.frame-parent9,
 .frame-root {
   overflow: hidden;
 }
-.frame-parent10 {
+.frame-parent9 {
   align-self: stretch;
   align-items: flex-start;
   padding: var(--padding-20xl) 0;
@@ -233,32 +234,31 @@
   .customer-dashboard {
     font-size: var(--font-size-9xl);
   }
-  .on-the-top-right-corner-of-the-parent {
-    flex-direction: column;
-  }
-  .frame-parent11,
-  .on-the-top-right-corner-of-the-parent {
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .when-an-asset {
+  .located-on-the {
     flex: unset;
     align-self: stretch;
   }
-  .when-an-asset-area-or-device-parent {
+  .located-on-the-top-right-corne-parent {
     flex-direction: column;
+  }
+  .frame-parent10,
+  .located-on-the-top-right-corne-parent,
+  .when-an-asset-area-or-device-parent {
     align-items: flex-start;
     justify-content: flex-start;
+  }
+  .when-an-asset-area-or-device-parent {
+    flex-direction: column;
   }
   .markers-in-this-section-can-be-parent {
     flex: unset;
     align-self: stretch;
   }
-  .frame-parent13 {
+  .frame-parent12 {
     flex-direction: column-reverse;
   }
-  .frame-parent12,
-  .frame-parent13 {
+  .frame-parent11,
+  .frame-parent12 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -271,13 +271,13 @@
   .depending-on-the-device-profil-container {
     flex-direction: column-reverse;
   }
-  .frame-wrapper6 {
+  .frame-wrapper7 {
     flex-direction: column-reverse;
   }
-  .frame-parent10,
-  .frame-parent14,
+  .frame-parent13,
+  .frame-parent9,
   .frame-root,
-  .frame-wrapper6 {
+  .frame-wrapper7 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -292,10 +292,14 @@
   .customer-dashboard {
     font-size: var(--font-size-base);
   }
-  .the-goal-of1 {
+  .located-on-the,
+  .this-tutorials-goal1 {
     font-size: var(--font-size-xs);
   }
-  .on-the-top-right-corner-of-the-parent {
+  .located-on-the {
+    line-height: 15px;
+  }
+  .located-on-the-top-right-corne-parent {
     gap: var(--gap-xl);
     align-items: center;
     justify-content: flex-start;
@@ -303,18 +307,14 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent11 {
+  .frame-parent10 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .when-an-asset {
-    font-size: var(--font-size-xs);
-    line-height: 15px;
-  }
   .when-an-asset-area-or-device-parent {
     gap: var(--gap-xl);
   }
-  .frame-parent13,
+  .frame-parent12,
   .when-an-asset-area-or-device-parent {
     align-items: center;
     justify-content: flex-start;
@@ -322,7 +322,7 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent12,
+  .frame-parent11,
   .image-3-parent {
     align-items: flex-start;
     justify-content: flex-start;
@@ -345,20 +345,20 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .image-4-icon {
+  .image-4-icon1 {
     width: 323px;
   }
-  .frame-parent14,
-  .frame-wrapper6 {
+  .frame-parent13,
+  .frame-wrapper7 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent10,
+  .frame-parent9,
   .frame-root {
     justify-content: flex-start;
     box-sizing: border-box;
   }
-  .frame-parent10 {
+  .frame-parent9 {
     align-items: flex-start;
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
@@ -375,22 +375,18 @@
   .customer-dashboard {
     font-size: var(--font-size-base);
   }
-  .the-goal-of1 {
+  .this-tutorials-goal1 {
     font-size: var(--font-size-xs);
   }
   .map-panel {
     font-size: var(--font-size-base);
   }
-  .on-the-top-right-corner-of-the-parent {
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .when-an-asset {
+  .located-on-the {
     font-size: var(--font-size-xs);
   }
-  .frame-parent13,
+  .frame-parent12,
   .image-3-parent,
+  .located-on-the-top-right-corne-parent,
   .when-an-asset-area-or-device-parent {
     padding-left: 0;
     padding-right: 0;
@@ -404,7 +400,7 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent10 {
+  .frame-parent9 {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
@@ -419,7 +415,7 @@
   .getting-started-with1 {
     font-size: var(--font-size-xl);
   }
-  .the-goal-of1 {
+  .this-tutorials-goal1 {
     font-size: 18px;
   }
 }
@@ -430,18 +426,18 @@
   .customer-dashboard {
     font-size: 22px;
   }
-  .the-goal-of1 {
+  .this-tutorials-goal1 {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
-  .frame-child10 {
+  .frame-child11 {
     width: 323px;
     height: 182px;
   }
   .additional-markers-can,
   .depending-on-the2,
-  .markers-in-this,
-  .when-an-asset {
+  .located-on-the,
+  .markers-in-this {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
