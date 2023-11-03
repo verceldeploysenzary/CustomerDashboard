@@ -421,8 +421,8 @@
 }
 @media screen and (min-width: 3000px) {
   .frame-top {
-    padding-left: var(--padding-481xl);
-    padding-right: var(--padding-481xl);
+    padding-left: var(--padding-1181xl);
+    padding-right: var(--padding-1181xl);
     box-sizing: border-box;
   }
 }
