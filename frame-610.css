@@ -65,7 +65,7 @@
   position: relative;
   line-height: 30px;
 }
-.frame-child13 {
+.frame-child14 {
   position: relative;
   width: 323px;
   height: 242px;
@@ -79,13 +79,13 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.frame-child15 {
+.frame-child16 {
   position: relative;
   width: 323px;
   height: 242px;
   object-fit: cover;
 }
-.frame-parent15,
+.frame-parent14,
 .you-can-click-on-each-of-these-parent {
   align-self: stretch;
   background-color: var(--color-white);
@@ -95,7 +95,7 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.frame-parent15 {
+.frame-parent14 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -107,7 +107,7 @@
   display: inline-block;
   width: 859px;
 }
-.frame-child16 {
+.frame-child17 {
   position: relative;
   width: 323px;
   height: 242px;
@@ -115,19 +115,19 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.frame-parent17,
-.frame-parent19 {
+.frame-parent16,
+.frame-parent18 {
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
 }
-.frame-parent19 {
+.frame-parent18 {
   background-color: var(--color-white);
   flex-direction: row;
   align-items: center;
   gap: var(--gap-xl);
 }
-.frame-parent17 {
+.frame-parent16 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-27xl);
@@ -157,14 +157,14 @@
   line-height: 20px;
   font-weight: 600;
 }
-.frame-wrapper8,
+.frame-wrapper10,
 .log-in-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper8 {
+.frame-wrapper10 {
   align-self: stretch;
   font-size: var(--font-size-5xl);
   color: var(--color-mediumvioletred);
@@ -182,24 +182,24 @@
   align-items: center;
   justify-content: center;
 }
-.frame-child24 {
+.frame-child25 {
   position: relative;
   width: 650px;
   height: 366px;
   object-fit: cover;
 }
 .frame-wrapper11,
-.frame-wrapper9 {
+.frame-wrapper13 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.frame-wrapper11 {
+.frame-wrapper13 {
   padding: 0 var(--padding-78xl);
 }
-.you-can-access4 {
+.you-can-access5 {
   flex: 1;
   position: relative;
   line-height: 35px;
@@ -210,23 +210,23 @@
   height: 219.4px;
   object-fit: cover;
 }
-.frame-parent14,
+.frame-parent13,
 .frame-top,
-.frame-wrapper12 {
+.frame-wrapper14 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frame-wrapper12 {
+.frame-wrapper14 {
   align-self: stretch;
   background-color: var(--color-white);
   align-items: flex-start;
 }
-.frame-parent14,
+.frame-parent13,
 .frame-top {
   overflow: hidden;
 }
-.frame-parent14 {
+.frame-parent13 {
   align-self: stretch;
   align-items: flex-start;
   padding: var(--padding-20xl) 0;
@@ -263,16 +263,16 @@
   .you-can-click-on-each-of-these-parent {
     flex-direction: column-reverse;
   }
-  .frame-parent15,
+  .frame-parent14,
   .you-can-click-on-each-of-these-parent {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent19 {
+  .frame-parent18 {
     flex-direction: column;
   }
-  .frame-parent17,
-  .frame-parent19,
+  .frame-parent16,
+  .frame-parent18,
   .to-assign-a-device-click-on-t-group {
     align-items: flex-start;
     justify-content: flex-start;
@@ -286,16 +286,16 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .you-can-access4 {
+  .you-can-access5 {
     flex: unset;
     align-self: stretch;
   }
-  .frame-wrapper12 {
+  .frame-wrapper14 {
     flex-direction: column-reverse;
   }
-  .frame-parent14,
+  .frame-parent13,
   .frame-top,
-  .frame-wrapper12 {
+  .frame-wrapper14 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -322,7 +322,7 @@
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
-  .frame-child13 {
+  .frame-child14 {
     align-self: stretch;
     width: auto;
   }
@@ -337,19 +337,19 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent15,
-  .frame-parent19 {
+  .frame-parent14,
+  .frame-parent18 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent19 {
+  .frame-parent18 {
     gap: var(--gap-xl);
     align-items: center;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .frame-parent17 {
+  .frame-parent16 {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -376,23 +376,23 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .you-can-access4 {
+  .you-can-access5 {
     font-size: var(--font-size-xs);
     line-height: 15px;
   }
   .image-4-icon {
     width: 323px;
   }
-  .frame-wrapper12 {
+  .frame-wrapper14 {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-parent14,
+  .frame-parent13,
   .frame-top {
     justify-content: flex-start;
     box-sizing: border-box;
   }
-  .frame-parent14 {
+  .frame-parent13 {
     align-items: flex-start;
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
@@ -422,7 +422,7 @@
   .in-the-top-container1 {
     font-size: var(--font-size-xs);
   }
-  .frame-child13 {
+  .frame-child14 {
     width: 323px;
   }
   .in-the-top-section-of-the-dash-parent,
@@ -434,7 +434,7 @@
   .create-a-new3 {
     font-size: var(--font-size-base);
   }
-  .frame-parent19,
+  .frame-parent18,
   .image-1-group,
   .to-assign-a-device-click-on-t-group {
     padding-left: 0;
@@ -449,10 +449,10 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .you-can-access4 {
+  .you-can-access5 {
     font-size: var(--font-size-xs);
   }
-  .frame-parent14 {
+  .frame-parent13 {
     padding-left: var(--padding-8xs);
     padding-right: var(--padding-8xs);
     box-sizing: border-box;
@@ -469,7 +469,7 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .frame-child24 {
+  .frame-child25 {
     width: 323px;
     height: 182px;
   }
